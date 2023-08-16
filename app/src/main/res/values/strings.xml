@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Urbanismo táctico App</string>
+    <string name="find_signal">Encuentra tu señal!</string>
+    <string name="brands">No ha escogido un tipo</string>
+    <string-array name="signal_types">
+        <item>Señales de advertencia</item>
+        <item>Señales de regulación</item>
+        <item>Señales informativas</item>
+        <item>Señales de obras en la vía</item>
+    </string-array>
+</resources>

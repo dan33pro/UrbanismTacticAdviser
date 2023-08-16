@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Agrega tu forma base aquí -->
+    <item android:id="@android:id/background">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/design_default_color_primary" /> <!-- Color de fondo -->
+            <corners android:bottomLeftRadius="16dp" android:bottomRightRadius="16dp" />
+        </shape>
+    </item>
+
+    <!-- Agrega la sombra aquí -->
+    <item android:left="4dp" android:bottom="8dp">
+        <shape>
+            <solid android:color="@color/design_default_color_primary_dark" />
+            <corners android:bottomLeftRadius="16dp" android:bottomRightRadius="16dp" />
+        </shape>
+    </item>
+</layer-list>
+

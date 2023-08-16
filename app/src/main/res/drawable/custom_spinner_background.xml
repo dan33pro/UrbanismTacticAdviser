@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="-2dp"> <!-- Invierte el espacio para compensar el grosor del borde -->
+        <shape>
+            <solid android:color="@color/design_default_color_primary_dark" /> <!-- Color del fondo -->
+            <corners android:bottomLeftRadius="4dp" android:bottomRightRadius="4dp" /> <!-- Radio de las esquinas redondeadas en dp -->
+        </shape>
+    </item>
+    <item android:bottom="2dp"> <!-- Espacio para el grosor del borde en dp -->
+        <shape>
+            <solid android:color="@android:color/white" /> <!-- Color de fondo del spinner -->
+            <corners android:bottomLeftRadius="4dp" android:bottomRightRadius="4dp" /> <!-- Radio de las esquinas redondeadas en dp -->
+        </shape>
+    </item>
+</layer-list>
